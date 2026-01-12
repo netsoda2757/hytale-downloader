@@ -1,0 +1,18 @@
+# Binaries
+hytale-downloader
+hytale-downloader.exe
+hytale-downloader-*
+*.zip
+
+# Credentials (never commit these!)
+.hytale-downloader-credentials.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
