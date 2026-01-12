@@ -43,6 +43,9 @@ func getBaseURL() string {
 	return "https://oauth.accounts-dev.hytale.com"
 }
 
+// Note: The actual domain in the binary is oauth.accounts.hytale.com for release
+// and oauth.accounts-dev.hytale.com for non-release builds
+
 // DeviceAuth initiates the device authorization flow
 func DeviceAuth(ctx context.Context) (*oauth2.DeviceAuthResponse, error) {
 	return cfg.DeviceAuth(ctx)
