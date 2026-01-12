@@ -21,7 +21,7 @@ A command-line tool to download Hytale server and asset files with OAuth2 authen
 
 ### Download Pre-built Binaries
 
-Download the latest release for your platform from the [Releases](https://github.com/decom-project/hytale-downloader/releases) page.
+Download the latest release for your platform from the [Releases](https://github.com/decomp-project/hytale-downloader/releases) page.
 
 ### Build from Source
 
